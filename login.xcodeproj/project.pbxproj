@@ -12,6 +12,7 @@
 		421E028A218A281600FB225E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 421E0288218A281600FB225E /* Main.storyboard */; };
 		421E028C218A281900FB225E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 421E028B218A281900FB225E /* Assets.xcassets */; };
 		421E028F218A281900FB225E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 421E028D218A281900FB225E /* LaunchScreen.storyboard */; };
+		42B3285821909D5B0075C64B /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = 42B3285721909D5B0075C64B /* BullsEye.html */; };
 		42C690B9218F467B00CB98A3 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C690B8218F467B00CB98A3 /* AboutViewController.swift */; };
 		42C690BB218F4A2E00CB98A3 /* AboutAuthorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C690BA218F4A2E00CB98A3 /* AboutAuthorViewController.swift */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,7 @@
 		421E028B218A281900FB225E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		421E028E218A281900FB225E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		421E0290218A281900FB225E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42B3285721909D5B0075C64B /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
 		42C690B8218F467B00CB98A3 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		42C690BA218F4A2E00CB98A3 /* AboutAuthorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAuthorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,6 +68,7 @@
 				421E028B218A281900FB225E /* Assets.xcassets */,
 				421E028D218A281900FB225E /* LaunchScreen.storyboard */,
 				421E0290218A281900FB225E /* Info.plist */,
+				42B3285721909D5B0075C64B /* BullsEye.html */,
 			);
 			path = BullsEye;
 			sourceTree = "<group>";
@@ -105,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 421E027C218A281600FB225E /* Build configuration list for PBXProject "BullsEye" */;
+			buildConfigurationList = 421E027C218A281600FB225E /* Build configuration list for PBXProject "login" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -129,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				421E028F218A281900FB225E /* LaunchScreen.storyboard in Resources */,
+				42B3285821909D5B0075C64B /* BullsEye.html in Resources */,
 				421E028C218A281900FB225E /* Assets.xcassets in Resources */,
 				421E028A218A281600FB225E /* Main.storyboard in Resources */,
 			);
@@ -291,6 +295,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4H7TN832DH;
 				INFOPLIST_FILE = BullsEye/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -308,6 +313,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4H7TN832DH;
 				INFOPLIST_FILE = BullsEye/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -323,7 +329,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		421E027C218A281600FB225E /* Build configuration list for PBXProject "BullsEye" */ = {
+		421E027C218A281600FB225E /* Build configuration list for PBXProject "login" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				421E0291218A281900FB225E /* Debug */,
